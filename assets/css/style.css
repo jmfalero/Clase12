@@ -1,10 +1,19 @@
+
+ 
+
 body {
     background-image: url(../img/imafondo.jpg) !important;
     background-size: cover !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;   
  }  
-main {
+nav {
+    paddind: 10px 100px 10px 10px !important; 
+    marg
+    
+}
+
+ main {
     width: auto !important;
     justify-content:space-evenly !important;
     color: bisque !important;
@@ -27,4 +36,8 @@ header {
         flex-wrap: wrap;
         justify-content: center !important;
     }
+}
+
+button { margin: 50px 50px 50px 50px !important;
+    background-image: linear-gradient( to bottom, rgb(255, 238, 0) ,rgb(59, 59, 69)) !important;
 }
