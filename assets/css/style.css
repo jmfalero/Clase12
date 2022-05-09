@@ -1,43 +1,67 @@
-
- 
-
-body {
-    background-image: url(../img/imafondo.jpg) !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;   
- }  
-nav {
-    paddind: 10px 100px 10px 10px !important; 
-    marg
-    
-}
-
- main {
-    width: auto !important;
-    justify-content:space-evenly !important;
-    color: bisque !important;
-}
-
-header {
-    background-image: linear-gradient( to bottom, rgb(255, 238, 0) ,rgb(59, 59, 69));
-}
-
-@media (max-width:768px) {
-    .fila{
-        width: 100% !important;
-        text-align: center;
-    }
-
+@media (max-width: 768px) {
+  .fila {
+    width: 100% !important;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
-    .img-wrap {
+  .img-wrap {
+    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        justify-content: center !important;
-    }
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
 }
 
-button { margin: 50px 50px 50px 50px !important;
-    background-image: linear-gradient( to bottom, rgb(255, 238, 0) ,rgb(59, 59, 69)) !important;
+body {
+  background-image: url(../img/imafondo.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
 }
+
+main {
+  width: auto !important;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  color: bisque !important;
+}
+
+header {
+ 
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45) !important;
+  width: 100% !important;
+  
+  
+}
+
+nav {
+  width: 100% !important;
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45) !important;
+ 
+  
+}
+
+
+.botoncontacto button {
+  margin: 50px 50px 50px 50px !important;
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45) !important;
+}
+
+.contenedordjs { 
+  text-align: center;
+  
+}
+
+.contenedordjs a {
+   text-decoration: none !important;
+   color:bisque ;
+}
+
+
+
+
+/*# sourceMappingURL 
